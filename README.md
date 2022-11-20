@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### Install npm 8.19.1 and go the project directory and run `npm install`
+
+### Use this webside for references and docs to create components
+
 ### `npm start`
 
 Runs the app in the development mode.\
