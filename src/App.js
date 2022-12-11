@@ -1,18 +1,17 @@
-// import logo from './logo.svg';
 import './App.css';
-import { useAuth } from './hooks/useAuth';
-import { AuthenticatedApp } from './components/AuthenticatedApp';
-import { UnauthenticatedApp } from './components/UnauthenticatedApp';
 
+import { Login } from './components/Login';
+import { useAuth } from './hooks/useAuth';
+import { Owner} from './components/Owner';
+import { Land} from './components/Land';
 
 function App() {
-  const {user} = useAuth();
-  return (
-    <div className="container">
-        <h1>💬 Chat Room</h1>
-        {user ? <AuthenticatedApp /> : <UnauthenticatedApp />}
-    </div>
-  );
+  const {user, currentView} = useAuth();
+  return(<>
+    {
+      (!user || currentView === 'login') ? <Login/> : currentView === 'resident' ? <Land/> : <Owner/>
+    }
+    </>);
 }
 
 export default App;

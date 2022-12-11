@@ -10,10 +10,10 @@ function Landing() {
         </h2>
         <ul className="chat-room-list">
             <li>
-                <Link to={`/chat`}>Chat</Link>
+                Chat
             </li>
             <li>
-                <Link to={`/event`}>Host</Link>
+                Host
             </li>
         </ul>
         <Fab style={{position:'absolute', bottom: '30px', right: '30px'}} variant='extended'>Chat</Fab>

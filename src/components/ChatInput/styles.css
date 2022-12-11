@@ -1,6 +1,7 @@
 .chat-input-container {
     color: black;
 }
+textarea,
 input {
     padding: 15px;
 }

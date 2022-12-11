@@ -19,7 +19,6 @@ function ChatRoom () {
     return (
         <div style={{padding: '20px', border: '1px solid gray', width: '500px', height: '600px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
             <span style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
-            <Link to="/">Back</Link>
             <h2>{user.apartmentId}</h2>
             </span>
             <div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', width: '100%'}}>
@@ -30,7 +29,6 @@ function ChatRoom () {
                     )
                     }
                 </div>
-                
                 <ChatInput />
             </div>
         </div>            

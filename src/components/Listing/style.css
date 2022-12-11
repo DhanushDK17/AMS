@@ -1,0 +1,20 @@
+.listitem {
+    width: 80%;
+    padding: 30px;
+    border: 1px solid gray;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.featureitem {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-style: italic;
+    /* border: 1px solid orange; */
+}
