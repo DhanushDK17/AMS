@@ -1,0 +1,13 @@
+.tab:hover {
+    background-color: lightgoldenrodyellow;
+}
+.tab.active {
+    background: gray;
+}
+.secondarybutton {
+    color: black;
+    padding: 20px;
+}
+.ownerbody {
+    height: calc(100%-90px);
+}

@@ -1,2 +1,3 @@
-# AMS
-This is an Apartment Recommendation System project which is a react frontend. Since it was a class project, this was shown as a prototype that will connect to a python backend with firestore database
+# Apartment Recommendation System
+
+This is a prototype built for Apartment Recommendation System product that was developed for Advanced Human Factors class during my first semester at Texas State University
